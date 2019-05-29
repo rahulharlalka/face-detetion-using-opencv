@@ -18,3 +18,6 @@
       6.3.2.	Trainner.yml is the yaml type file which stores the trained model . it contains the model parameters which have be initialized after training.
     6.4.	The training of the model is over.
 7.	Load the model.ipynb file in your IDE and run it . You will the output come up in form of text on your face and also as labels in output in your IDE.
+8.   If you wnat to add more datasets pictures to the training model upload the new_data_addition.ipynb file in IDE and run it. The default internal camera will automatically start and would capture your images. this will the new datset fo training model.
+
+the website and sql dataset of the model is on its way to be included in the model infrastructure.
