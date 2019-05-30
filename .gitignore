@@ -4,4 +4,5 @@ cascades
 mytraindata
 labelssave.pickle
 downloading images for training using web scraping.ipynb
+new_trainer.yml
 /usr/bin/bash: wq: command not found
