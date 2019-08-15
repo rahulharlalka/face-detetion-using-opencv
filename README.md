@@ -1,4 +1,4 @@
-# mega-project
+# mega-project - face recognition system using opencv 
 1.	First create a folder to contain all the files for the required project.
 2.	You need to have opencv installed in your system for the project to run.
 3.	First of all go and copy the cascade folder present in the .opencv folder created after downloading the opencv library and paste it in your project folder under the title of directory cascades.
@@ -21,3 +21,11 @@
 8.   If you wnat to add more datasets pictures to the training model upload the new_data_addition.ipynb file in IDE and run it. The default internal camera will automatically start and would capture your images. this will the new datset fo training model.
 
 the website and sql dataset of the model is on its way to be included in the model infrastructure.
+
+
+the opencv face recognition model is not a full proof model because the number of users in the model increases the output y labels in the model icreases which then starts overlapping outputs and starts giving wrong results.
+the camera quality of the laptop is also very low so training is done upon upon better quality images which testing and deployment of the model is done on poor quality videos this is a major hindrance to this model.
+for goog recognition of the model we need to train the model on large amount of images of a specific person which is almost impossible as we do not have a large aomunt of images of a specific person.
+
+These are the major problems encountered while testing the model so the better altenative to this model is using one shotlearning siamese networks which uses only a few pics os a sprecific person for training and gives better output.
+This change in the model will be committed shortly.
