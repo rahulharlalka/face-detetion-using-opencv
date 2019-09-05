@@ -27,5 +27,5 @@ the opencv face recognition model is not a full proof model because the number o
 the camera quality of the laptop is also very low so training is done upon upon better quality images which testing and deployment of the model is done on poor quality videos this is a major hindrance to this model.
 for goog recognition of the model we need to train the model on large amount of images of a specific person which is almost impossible as we do not have a large aomunt of images of a specific person.
 
-These are the major problems encountered while testing the model so the better altenative to this model is using one shotlearning siamese networks which uses only a few pics os a sprecific person for training and gives better output.
-This change in the model will be committed shortly.
+# These are the major problems encountered while testing the model so the better altenative to this model is using one shotlearning siamese networks which uses only a few pics os a sprecific person for training and gives better output.
+# This change in the model will be committed shortly.
